@@ -52,9 +52,6 @@ if __name__ == '__main__':
     print('Memory difference:', lit_count-mem_count)
     print('Re-encoded difference:', enc_count-lit_count)
 
-  elif len(sys.argv) == 3:
-    print(sys.argv[2], 'Santas visited',
-          num_visited(sys.argv[1], int(sys.argv[2])), 'houses')
   else:
     print('No/incorrect number of arguements given. Running tests...')
     unittest.main()
